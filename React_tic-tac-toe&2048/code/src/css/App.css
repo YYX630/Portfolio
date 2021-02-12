@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+HTML CSSResult
+EDIT ON
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  padding: 30px;
+}
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+body {
+  padding: 30px;
+  background: #000;
+}
+
+.btn-border-gradient-wrap {
+  display: inline-block;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(yellow),
+    to(green)
+  );
+  background: -webkit-linear-gradient(left, yellow, green);
+  background: linear-gradient(to right, yellow, green);
+}
+
+.btn-border-gradient-wrap:hover {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(yellow),
+    to(green)
+  );
+  background: -webkit-linear-gradient(right, yellow, green);
+  background: linear-gradient(to left, yellow, green);
+}
+
+a.btn-border-gradient {
+  color: #8fc31f;
+  background: #000;
+}
